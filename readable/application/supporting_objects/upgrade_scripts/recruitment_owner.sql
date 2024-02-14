@@ -1,1 +1,0 @@
-alter table EBA_CUST_CUSTOMERS add REF_RECRUITMENT_OWNER   varchar2(255);

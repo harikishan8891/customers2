@@ -1,1 +1,0 @@
-drop index EBA_CUST_PRODUCT_USES_UK;

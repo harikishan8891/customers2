@@ -1,1 +1,0 @@
-create sequence eba_cust_seq;
