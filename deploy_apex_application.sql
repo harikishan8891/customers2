@@ -10,7 +10,7 @@ apex_application_install.set_application_id(q'[&apex_id]');
 end;
  /
 
-@../install.sql
+@install.sql
 set ddl storage off
 set ddl partitioning off
 set ddl segment_attributes off
