@@ -2,7 +2,6 @@ DEFINE workspace_id = &1
 DEFINE apex_id = &2
 set serveroutput on 
 begin
- dbms_output.put_line('workspace is '|| &workspace_id||'apex id is'||&apex_id );
  apex_application_install.set_workspace(q'[&workspace_id]');
 apex_application_install.set_application_id(q'[&apex_id]');
  apex_application_install.set_auto_install_sup_obj(
