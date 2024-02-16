@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+	<changeSet id="5279ae0834d00244afbc9b469163e4361426e03b" author="(DYMON)-Generated" failOnError="false"   runOnChange="false" runAlways="false"  >
+		<n0:createOracleComment objectName="ESQL_594" objectType="COMMENT" ownerName="DYMON" sourceType="STRING" replaceIfExists="false" >
+			<n0:source><![CDATA[
+   COMMENT ON TABLE "ESQL_594"  IS 'Data Pump Master Table EXPORT                         SCHEMA                        ';]]></n0:source>
+		</n0:createOracleComment>
+	</changeSet>
+</databaseChangeLog>
