@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+	<changeSet id="67631261d35c8eead39f736002e3ea2206b12323" author="(DYMON)-Generated" failOnError="false"   runOnChange="false" runAlways="false"  >
+		<n0:createOracleJob objectName="MYCRED" objectType="JOB" ownerName="DYMON"  replaceIfExists="false" >
+			<n0:source><![CDATA[
+BEGIN 
+dbms_cloud.create_credential('MYCRED', username=>'harikishan8891@gmail.com', password=>'NULL', enabled=>TRUE, windows_domain=>NULL, comments=>'{comments:Created via DBMS_CLOUD.create_credential}');
+COMMIT; 
+END; 
+/ ]]></n0:source>
+		</n0:createOracleJob>
+	</changeSet>
+</databaseChangeLog>
